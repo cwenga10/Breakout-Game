@@ -20,7 +20,7 @@ A fast-paced, browser-based arcade game built with vanilla Javascript, HTML and 
 
 ## 🌐 Live Demo
 
-[Play the Game](https://cwenga10.github.io/Breakout-Game)
+[Play the Game](https://github.com/cwenga10/Breakout-Game.git)
 
  ## Future Enhancements
 - Power-ups and bonus levels
