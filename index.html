@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paddle Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="levelMessage" style="display: none; color: yellow; 
+    font-size: 24px; 
+    position: absolute; top: 10px; left: 50%; 
+    transform: translateX(-50%); z-index: 10;">
+        Level Increased!
+      </div>
+      
+      <div id="gameOverMessage" style="display: none; color: red; 
+      font-size: 28px; font-weight: bold;
+       position: absolute; top: 50%; left: 50%; 
+       transform: translate(-50%, -50%); z-index: 10;">
+        GAME OVER !!!
+      </div>
+      
+      <div id="startMessage" style="display:none; 
+      position: absolute; top: 50%; left: 50%; 
+    transform: translate(-50%, -50%); color: white; font-size: 24px;">
+    Press Spacebar to Start
+    Use The Left and Right Arrows to control the paddle
+</div>
+
+
+    <div id="button-container">
+        <button id="Play">Play</button>
+    </div>
+    
+    <canvas id="mycanv" width="800" height="600"></canvas>
+
+    <button id="Quit">Quit</button>
+    <div id="score">Score: 0</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
