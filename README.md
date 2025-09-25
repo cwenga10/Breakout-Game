@@ -18,6 +18,10 @@ A fast-paced, browser-based arcade game built with vanilla Javascript, HTML and 
 2. Use **Left** and **Right** arrow keys to move the paddle.
 3. Break all bricks to win. Avoid missing the ball!
 
+## 🌐 Live Demo
+
+[Play the Game](https://cwenga10.github.io/Breakout-Game)
+
  ## Future Enhancements
 - Power-ups and bonus levels
 - Mobile touch controls
